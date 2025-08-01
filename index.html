@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sample Accessible and SEO-Friendly Webpage</title>
+  <meta name="description" content="A sample web page demonstrating HTML5 semantic structure, web accessibility best practices, and on-page SEO basics with CSS styling." />
+  <meta name="keywords" content="HTML5, accessibility, SEO, semantic HTML, web design, screen readers, CSS, box model" />
+  <meta name="author" content="Your Name" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Sample Website</h1>
+    <nav aria-label="Primary navigation">
+      <ul>
+        <li><a href="#section-about">About</a></li>
+        <li><a href="#section-services">Services</a></li>
+        <li><a href="#section-contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <article id="section-about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Us</h2>
+      <p>We provide accessible and SEO-friendly web solutions that enhance user experience for everyone.</p>
+    </article>
+
+    <article id="section-services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services</h2>
+      <section>
+        <h3>Web Accessibility Consulting</h3>
+        <p>Ensuring your website is accessible to all users, including those using assistive technologies.</p>
+      </section>
+      <section>
+        <h3>SEO Optimization</h3>
+        <p>Improving your site’s visibility on search engines through strategic content and structure.</p>
+      </section>
+    </article>
+
+    <article id="section-contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <address>
+        Email: <a href="mailto:ermiyasgera@gmail.com">ermiyasgera@gmail.com</a><br />
+        Phone: <a href="tel:+251900000000">+251900000000</a>
+      </address>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
